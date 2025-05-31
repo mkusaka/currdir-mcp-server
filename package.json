@@ -1,7 +1,15 @@
 {
-  "name": "currdir-mcp-server",
+  "name": "@mkusaka/currdir-mcp-server",
   "version": "0.1.0",
   "description": "MCP server that returns the current directory path",
+  "author": "mkusaka <hinoshita1992@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkusaka/currdir-mcp-server.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "type": "module",
   "scripts": {

@@ -7,7 +7,7 @@ const server = new McpServer({
   version: "0.1.0",
 });
 
-// get_current_directory ツールの定義
+// Define get_current_directory tool
 server.tool(
   "get_current_directory",
   "Returns the current directory path where the MCP server is running",
@@ -30,7 +30,7 @@ server.tool(
   }
 );
 
-// サーバーの起動
+// Start the server
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
