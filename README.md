@@ -9,7 +9,13 @@ A simple MCP (Model Context Protocol) server that provides a tool to get the cur
 ## Installation
 
 ```bash
-npm install
+npm install @mkusaka/currdir-mcp-server
+```
+
+Or install globally:
+
+```bash
+npm install -g @mkusaka/currdir-mcp-server
 ```
 
 ## Usage
@@ -54,8 +60,8 @@ The server can be integrated with any MCP-compatible client. Add it to your MCP 
 {
   "mcpServers": {
     "currdir": {
-      "command": "node",
-      "args": ["/path/to/currdir-mcp-server/dist/index.js"]
+      "command": "npx",
+      "args": ["@mkusaka/currdir-mcp-server"]
     }
   }
 }
