@@ -1,0 +1,1 @@
+# currdir-mcp-server
