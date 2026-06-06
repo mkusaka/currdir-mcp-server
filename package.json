@@ -29,5 +29,6 @@
   },
   "bin": {
     "currdir-mcp-server": "./dist/index.js"
-  }
+  },
+  "packageManager": "pnpm@11.5.2"
 }
